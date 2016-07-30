@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Team Basement Systems</title>
+  </head>
+
+   <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      .view {
+         width: 100%;
+         height: 100%;
+      }
+      </style>
+  <body>
+    <webview class="view" src="http://teambasementsystems.com" nodeintegration plugins></webview>
+  </body>
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>
